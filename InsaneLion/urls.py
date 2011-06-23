@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     # Example:
     # (r'^InsaneLion/', include('InsaneLion.foo.urls')),
 
+    (r'^$', 'InsaneLion.video_stuff.views.default_view'),
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
